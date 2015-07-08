@@ -9,7 +9,8 @@
   ],
   "dependencies": {
     "polyvitamins/polyscope": "master",
-    "polyvitamins/polyscope-eacher": "master"
+    "polyvitamins/polyscope-eacher": "master",
+    "polyvitamins/polyscope-strings": "master"
    },
   "scripts": [
     "src/dom.js"
