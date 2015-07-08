@@ -1,0 +1,59 @@
+{
+  "name": "S",
+  "repository": "http://github.com/polyvitamins/polyscope-dom",
+  "description": "Supports DOM functions",
+  "version": "0.0.1",
+  "keywords": ["suit"],
+  "main": [
+    "dist/dom.js"
+  ],
+  "dependencies": {
+    "polyvitamins/polyscope": "master",
+    "polyvitamins/polyscope-eacher": "master"
+   },
+  "scripts": [
+    "src/dom.js"
+  ],
+  "optional": {
+    "addClass":     "src/Dom/addClass.js",
+    "and":          "src/Dom/and.js",
+    "attr":         "src/Dom/attr.js",
+    "condition.js": "src/Dom/condition.js.js",
+    "css":          "src/Dom/css.js",
+    "data":          "src/Dom/data.js",
+    "empty":          "src/Dom/empty.js",
+    "eq":          "src/Dom/eq.js",
+    "events":          "src/Dom/events.js",
+    "find":          "src/Dom/find.js",
+    "first":          "src/Dom/first.js",
+    "height":          "src/Dom/height.js",
+    "hide":          "src/Dom/hide.js",
+    "html":          "src/Dom/html.js",
+    "index":          "src/Dom/index.js",
+    "is":          "src/Dom/is.js",
+    "module":          "src/Dom/module.js",
+    "offset":          "src/Dom/offset.js",
+    "outerWidth":          "src/Dom/outerWidth.js",
+    "parent":          "src/Dom/parent.js",
+    "put":          "src/Dom/put.js",
+    "ready":          "src/Dom/ready.js",
+    "removeClass":          "src/Dom/removeClass.js",
+    "scrollTop":          "src/Dom/scrollTop.js",
+    "search":          "src/Dom/search.js",
+    "show":          "src/Dom/show.js",
+    "toArray":          "src/Dom/toArray.js",
+    "toggleClass":          "src/Dom/toggleClass.js",
+    "toggleShow":          "src/Dom/toggleShow.js",
+    "unshift":          "src/Dom/unshift.js",
+    "width":          "src/Dom/width.js",
+    "wrap":          "src/Dom/wrap.js",
+    "zen":          "src/Dom/zen.js"
+  },
+  "license": "MIT",
+  "remotes": [
+    "github"
+  ],
+  "tags": [
+    "global","amd"
+  ]
+}
