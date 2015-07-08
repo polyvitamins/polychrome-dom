@@ -1,4 +1,4 @@
-define(['./../Dom','./extras/pseusoQueryMatch.js','$//classes/Eacher/each'], function(Dom, pseusoQueryMatch) {
+define(['./../Dom','./extras/pseusoQueryMatch.js','polyvitamins~polyscope-eacher@master/each'], function(Dom, pseusoQueryMatch) {
 	Dom.extend({
 		is: function(origq) {
 			var subject,test,pqs,qs;

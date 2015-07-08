@@ -1,4 +1,4 @@
-define(['./../Dom.js','$//gist/common/toArray.js','$//classes/Eacher/each'], function(Dom, toArray) {
+define(['./../Dom.js','polyvitamins~polyscope@master/gist/common/toArray.js','polyvitamins~polyscope-eacher@master/each'], function(Dom, toArray) {
 	Dom.extend({
 		attr: function() {
 			var args = toArray(arguments);

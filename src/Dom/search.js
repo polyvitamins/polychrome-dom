@@ -1,4 +1,4 @@
-define(['$//$', './../Dom','./extras/querySelector.js','$//classes/Eacher/each','./is.js'], function(core, Dom, querySelector) {
+define(['polyvitamins~polyscope@master', './../Dom','./extras/querySelector.js','polyvitamins~polyscope-eacher@master/each','./is.js'], function(core, Dom, querySelector) {
 	Dom.extend({
 		/*
 `		Search в отличии от find производит проверку самого элемента на соответствие условием поиска

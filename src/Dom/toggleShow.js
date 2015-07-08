@@ -1,4 +1,4 @@
-define(['$//$', './../Dom','./css', './show', './hide', './is', '$//classes/Eacher/each'], function(core, Dom) {
+define(['polyvitamins~polyscope@master', './../Dom','./css', './show', './hide', './is', 'polyvitamins~polyscope-eacher@master/each'], function(core, Dom) {
 	Dom.extend({
 		toggleShow: function() {
 			this.each(function(elem) {

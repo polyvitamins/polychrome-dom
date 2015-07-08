@@ -1,4 +1,4 @@
-define(['$//$', './../Dom.js',  '$//internals/supports/dataset.js', '$//classes/Strings/camelize', '$//classes/Strings/dasherize', '$//classes/Eacher/each'], function(core, Dom) {
+define(['polyvitamins~polyscope@master', './../Dom.js',  'polyvitamins~polyscope@master/internals/supports/dataset.js', 'polyvitamins~polyscope-strings@master/camelize', 'polyvitamins~polyscope-strings@master/dasherize', 'polyvitamins~polyscope-eacher@master/each'], function(core, Dom) {
 	var cache=window.cache=[],tieid='__abstractdata__';//+Math.round(Math.random()*10000),
 	allowdataset=core.supports('dataset'),
 	regValidAttrValue=/^[^\n\r\"]*$/,

@@ -1,4 +1,4 @@
-define(['$//$', './../Dom','./extras/determineNodeObject.js','$//gist/common/toArray.js','$//classes/Eacher/each'], function($, Dom, determineNodeObject,toArray) {
+define(['polyvitamins~polyscope@master', './../Dom','./extras/determineNodeObject.js','polyvitamins~polyscope@master/gist/common/toArray.js','polyvitamins~polyscope-eacher@master/each'], function($, Dom, determineNodeObject,toArray) {
 	Dom.extend({
 		unshift: function(subject, data) {
 			var kit = [];

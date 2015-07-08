@@ -1,4 +1,4 @@
-define(['$//$', './../Dom','./extras/determineNodeObject.js','./parent.js','$//classes/Eacher/each'], function($,Dom,determineNodeObject) {
+define(['polyvitamins~polyscope@master', './../Dom','./extras/determineNodeObject.js','./parent.js','polyvitamins~polyscope-eacher@master/each'], function($,Dom,determineNodeObject) {
 	Dom.extend({
 		wrapAll: function(subject, data) {
 			var objects = determineNodeObject(subject, data),i=0;

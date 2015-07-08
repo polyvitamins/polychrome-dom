@@ -1,4 +1,4 @@
-define(['$//$', './../Dom','$//classes/Eacher/each', '$//classes/Strings/firstUpper'], function(core, Dom) {
+define(['polyvitamins~polyscope@master', './../Dom','polyvitamins~polyscope-eacher@master/each', 'polyvitamins~polyscope-strings@master/firstUpper'], function(core, Dom) {
 	Dom.extend({
 		/* Создает экземпляр модуля передав ему данный селектор */
 		module: function(moduleName) {

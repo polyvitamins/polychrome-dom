@@ -1,4 +1,4 @@
-define(['$//$', './createChild.js', '$//gist/common/toArray.js', '$//system/api/determineClass'], function($, createChild, toArray, determineAbstractClass) {
+define(['polyvitamins~polyscope@master', './createChild.js', 'polyvitamins~polyscope@master/gist/common/toArray.js', 'polyvitamins~polyscope@master/system/api/determineClass'], function($, createChild, toArray, determineAbstractClass) {
 	return function(subject, data) {
 		var objects = [],
 		absClass=determineAbstractClass.call($, subject);

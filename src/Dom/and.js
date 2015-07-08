@@ -1,4 +1,4 @@
-define(['$//$', './../Dom.js', './extras/determineNodeObject.js','$//classes/Eacher/each'], function($, Dom, determineNodeObject) {
+define(['polyvitamins~polyscope@master', './../Dom.js', './extras/determineNodeObject.js','polyvitamins~polyscope-eacher@master/each'], function($, Dom, determineNodeObject) {
 	Dom.extend({
 		and: function(subject, data) {
 			// This function return Array anyway

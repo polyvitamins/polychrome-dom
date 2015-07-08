@@ -1,4 +1,4 @@
-define(['./../Dom.js','$//classes/Eacher/each'], function(Dom) {
+define(['./../Dom.js','polyvitamins~polyscope-eacher@master/each'], function(Dom) {
 	Dom.extend({
 		html: function(html) {
 			if ("undefined"===typeof html) {

@@ -1,4 +1,4 @@
-define(['./../Dom','$//gist/common/addEvent.js','$//gist/common/removeEvent.js','$//gist/common/toArray.js','$//classes/Eacher/each'], function(Dom, addEvent, removeEvent, toArray) {
+define(['./../Dom','polyvitamins~polyscope@master/gist/common/addEvent.js','polyvitamins~polyscope@master/gist/common/removeEvent.js','polyvitamins~polyscope@master/gist/common/toArray.js','polyvitamins~polyscope-eacher@master/each'], function(Dom, addEvent, removeEvent, toArray) {
 	Dom.extend({
 		bind : function() {
 			var args = arguments;

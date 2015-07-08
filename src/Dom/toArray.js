@@ -1,4 +1,4 @@
-define(['$//$', './../Dom.js','$//internals/frendly'], function(core, Dom) {
+define(['polyvitamins~polyscope@master', './../Dom.js','polyvitamins~polyscope@master/internals/frendly'], function(core, Dom) {
 	Dom.extend({
 		/* Преобразует объект-селектор в массив */
 		toArray: function() {
