@@ -10,7 +10,7 @@
     "polyvitamins/polyscope-strings": "master"
    },
   "scripts": [
-    "src/dom.js"
+    "src/Dom.js"
   ],
   "optional": {
     "addClass":     "src/Dom/addClass.js",
