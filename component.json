@@ -4,9 +4,6 @@
   "description": "Supports DOM functions",
   "version": "0.0.1",
   "keywords": ["suit"],
-  "main": [
-    "dist/dom.js"
-  ],
   "dependencies": {
     "polyvitamins/polyscope": "master",
     "polyvitamins/polyscope-eacher": "master",
