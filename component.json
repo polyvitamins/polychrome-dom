@@ -16,7 +16,7 @@
     "addClass":     "src/Dom/addClass.js",
     "and":          "src/Dom/and.js",
     "attr":         "src/Dom/attr.js",
-    "condition.js": "src/Dom/condition.js.js",
+    "condition":    "src/Dom/condition.js",
     "css":          "src/Dom/css.js",
     "data":          "src/Dom/data.js",
     "empty":          "src/Dom/empty.js",

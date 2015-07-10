@@ -6,7 +6,10 @@ define([
 	'polyvitamins~polyscope@master/system/sings/sQuery',
 	'polyvitamins~polyscope@master/system/sings/sWindow'
 	],function($, querySelector) {
+		
 	var Dom = $.registerClass('Dom', function() {
+
+
 		
 		this.selector=this.__subject__;
 

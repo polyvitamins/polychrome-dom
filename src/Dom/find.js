@@ -1,4 +1,5 @@
 define(['polyvitamins~polyscope@master', './../Dom','./extras/querySelector.js','polyvitamins~polyscope-eacher@master/each'], function(core, Dom, querySelector) {
+	
 	Dom.extend({
 		find: function(selector) {
 			var suit = [],elements;
