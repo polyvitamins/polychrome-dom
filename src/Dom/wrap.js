@@ -9,7 +9,6 @@ define(['polyvitamins~polyscope@master', './../Dom','./extras/determineNodeObjec
 			}
 
 			this.each(function() {
-				console.log('this', this, objects[0]);
 				objects[0].appendChild(this);
 			});
 
