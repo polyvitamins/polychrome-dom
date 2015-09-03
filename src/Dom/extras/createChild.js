@@ -1,4 +1,4 @@
-define(['polyvitamins~polyscope@master'], function(core) {
+define(['polyvitamins~polychrome@master'], function(core) {
 
 	return function(nodeName, data, prepend) {
 		var context = (this===window) ? document.body : this;

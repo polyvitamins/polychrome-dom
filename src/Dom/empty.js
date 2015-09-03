@@ -1,4 +1,4 @@
-define(['./../Dom','polyvitamins~polyscope-eacher@master/each'], function(Dom) {
+define(['./../Dom','polyvitamins~polychrome-eacher@master/each'], function(Dom) {
 	Dom.extend({
 		empty: function() {
 			this.each(function() {

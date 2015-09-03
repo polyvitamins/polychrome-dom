@@ -1,4 +1,4 @@
-define(['polyvitamins~polyscope@master', './../Dom', './data', 'polyvitamins~polyscope-objective@master/charge','polyvitamins~polyscope-events@master'], function($, Dom) {
+define(['polyvitamins~polychrome@master', './../Dom', './data', 'polyvitamins~polychrome-objective@master/charge','polyvitamins~polychrome-events@master'], function($, Dom) {
 	$(document).data('stock', $({
 		ready: false
 	}).charge('Events'));

@@ -1,4 +1,4 @@
-define(['polyvitamins~polyscope@master', './../Dom','polyvitamins~polyscope-eacher@master/each'], function(core, Dom) {
+define(['polyvitamins~polychrome@master', './../Dom','polyvitamins~polychrome-eacher@master/each'], function(core, Dom) {
 	Dom.extend({
 		parent: function() {
 			var parentList = [];

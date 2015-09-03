@@ -1,4 +1,4 @@
-define(['polyvitamins~polyscope@master', './../Dom','./css', 'polyvitamins~polyscope-eacher@master/each'], function(core, Dom) {
+define(['polyvitamins~polychrome@master', './../Dom','./css', 'polyvitamins~polychrome-eacher@master/each'], function(core, Dom) {
 	Dom.extend({
 		hide: function(selector) {
 			this.each(function(elem) {

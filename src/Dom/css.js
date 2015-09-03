@@ -1,4 +1,4 @@
-define(['./../Dom.js','polyvitamins~polyscope-eacher@master/each'], function(Dom) {
+define(['./../Dom.js','polyvitamins~polychrome-eacher@master/each'], function(Dom) {
 	Dom.extend({
 		css: function() {
 			

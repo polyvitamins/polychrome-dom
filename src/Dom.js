@@ -1,10 +1,10 @@
 define([
-	'polyvitamins~polyscope@master', 
+	'polyvitamins~polychrome@master', 
 	'./Dom/extras/querySelector',
-	'polyvitamins~polyscope@master/system/sings/sHTMLElement',
-	'polyvitamins~polyscope@master/system/sings/sSelector',
-	'polyvitamins~polyscope@master/system/sings/sQuery',
-	'polyvitamins~polyscope@master/system/sings/sWindow'
+	'polyvitamins~polychrome@master/system/sings/sHTMLElement',
+	'polyvitamins~polychrome@master/system/sings/sSelector',
+	'polyvitamins~polychrome@master/system/sings/sQuery',
+	'polyvitamins~polychrome@master/system/sings/sWindow'
 	],function($, querySelector) {
 		
 	var Dom = $.registerClass('Dom', function() {

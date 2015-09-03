@@ -1,13 +1,13 @@
 {
   "name": "S",
-  "repository": "http://github.com/polyvitamins/polyscope-dom",
+  "repository": "http://github.com/polyvitamins/polychrome-dom",
   "description": "Supports DOM functions",
   "version": "0.0.1",
   "keywords": ["suit"],
   "dependencies": {
-    "polyvitamins/polyscope": "master",
-    "polyvitamins/polyscope-eacher": "master",
-    "polyvitamins/polyscope-strings": "master"
+    "polyvitamins/polychrome": "master",
+    "polyvitamins/polychrome-eacher": "master",
+    "polyvitamins/polychrome-strings": "master"
    },
   "scripts": [
     "src/Dom.js"

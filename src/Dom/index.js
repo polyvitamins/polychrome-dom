@@ -1,4 +1,4 @@
-define(['./../Dom','./find','./parent','polyvitamins~polyscope-eacher@master/each'], function(Dom) {
+define(['./../Dom','./find','./parent','polyvitamins~polychrome-eacher@master/each'], function(Dom) {
 	Dom.extend({
 		/*
 		Возвращает порядковый номер элемента
