@@ -13,6 +13,7 @@
     "src/Dom.js"
   ],
   "optional": {
+    "classed":      "src/Dom/classed.js",
     "addClass":     "src/Dom/addClass.js",
     "and":          "src/Dom/and.js",
     "attr":         "src/Dom/attr.js",
