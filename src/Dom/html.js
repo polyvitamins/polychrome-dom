@@ -5,10 +5,12 @@ define(['./../Dom.js','polyvitamins~polychrome-eacher@master/each'], function(Do
 				if (this.length<=0) return null;
 				return this[0].innerHTML;
 			}
-			else
-			return this.each(function() {
-				this.innerHTML = html;
-			});
+			else {
+				this.each(function() {
+					this.innerHTML = html;
+				});
+			}
+			return this;
 		}
 	});
 });
