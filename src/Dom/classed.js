@@ -3,7 +3,6 @@ define(['./../Dom.js','polyvitamins~polychrome-eacher@master/each'], function(Do
 		classed: function() {
 			var className = arguments[0].split(' '),i,flag=!!arguments[1];
 			this.each(function(el) {
-
 				for (i=0;i<className.length;++i) {
 					var st = el.className.split(' ');
 					if (flag) {
