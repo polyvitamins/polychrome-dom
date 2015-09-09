@@ -2,7 +2,7 @@ define(['polyvitamins~polychrome@master', './createChild.js', 'polyvitamins~poly
 	return function(subject, data) {
 		var objects = [],
 		absClass=determineAbstractClass.call($, subject);
-		if (absClass.indexOf("HTMLELement")>=0) {
+		if (absClass.indexOf("HTMLElement")>=0) {
 				/* Force HTML Elements */
 				objects = [subject];
 		} else if (
@@ -19,7 +19,6 @@ define(['polyvitamins~polychrome@master', './createChild.js', 'polyvitamins~poly
 		) {
 			objects = toArray(subject);
 		} else {
-			console.dir(subject);
 				$.warn('Selector unknown format '+absClass[0]); 
 		}
 
